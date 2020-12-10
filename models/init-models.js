@@ -5,6 +5,7 @@ function initModels(sequelize) {
   var users = _users(sequelize, DataTypes);
 
 
+  
   return {
     users,
   };
